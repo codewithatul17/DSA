@@ -8,7 +8,7 @@ public:
         int fresh = 0;
         int minutes = 0;
 
-        // Find all rotten and fresh oranges
+        // Store all initially rotten oranges
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 2) {
